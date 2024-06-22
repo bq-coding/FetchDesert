@@ -43,7 +43,6 @@ struct DesertDetailView: View {
                         .padding(.bottom, 8)
                     }
                     
-                    // List to display ingredients and measures dynamically
                     VStack(alignment: .leading, spacing: 8) {
                         Text("Ingredients:")
                             .font(.headline)
@@ -104,6 +103,7 @@ struct DesertDetailView: View {
     }
 }
 
+// there has to be a way to combine all those ingrediaents and measures into a single array of tuples...
 struct DesertDetails: Codable {
     let idMeal: String
     let strMeal: String
@@ -154,7 +154,6 @@ struct DesertDetails: Codable {
     let strMeasure19: String?
     let strMeasure20: String?
     
-    // Function to fetch value for dynamic keys
     func getValue(forKey key: String) -> String? {
         return Mirror(reflecting: self).children.first { $0.label == key }?.value as? String
     }

@@ -22,7 +22,7 @@ struct ContentView: View {
                                 ProgressView()
                             }
                             Spacer()
-                                .frame(width: 20) // Fixed width spacer
+                                .frame(width: 20)
                             Text(desert.strMeal)
                                 .font(.headline)
                             Spacer()
@@ -37,7 +37,6 @@ struct ContentView: View {
         }
     }
 
-    // Filtered deserts based on searchText
     private var filteredDeserts: [Desert] {
         if searchText.isEmpty {
             return deserts
@@ -63,7 +62,6 @@ struct ContentView: View {
     }
 }
 
-// SearchBar component
 struct SearchBar: View {
     @Binding var text: String
     var placeholder: String
