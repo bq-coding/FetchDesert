@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9FE66312C274F54001C5700 /* FetchDesertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE66302C274F54001C5700 /* FetchDesertApp.swift */; };
+		B9FE66332C274F54001C5700 /* DesertListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE66322C274F54001C5700 /* DesertListView.swift */; };
+		B9FE66352C274F55001C5700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9FE66342C274F55001C5700 /* Assets.xcassets */; };
+		B9FE66382C274F55001C5700 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9FE66372C274F55001C5700 /* Preview Assets.xcassets */; };
+		B9FE66422C274F56001C5700 /* FetchDesertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE66412C274F56001C5700 /* FetchDesertTests.swift */; };
+		B9FE664C2C274F56001C5700 /* FetchDesertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE664B2C274F56001C5700 /* FetchDesertUITests.swift */; };
+		B9FE664E2C274F56001C5700 /* FetchDesertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE664D2C274F56001C5700 /* FetchDesertUITestsLaunchTests.swift */; };
+		B9FE665F2C275CF6001C5700 /* DesertDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FE665E2C275CF6001C5700 /* DesertDetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9FE663E2C274F56001C5700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9FE66252C274F54001C5700 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9FE662C2C274F54001C5700;
+			remoteInfo = FetchDesert;
+		};
+		B9FE66482C274F56001C5700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9FE66252C274F54001C5700 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9FE662C2C274F54001C5700;
+			remoteInfo = FetchDesert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9FE662D2C274F54001C5700 /* FetchDesert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchDesert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FE66302C274F54001C5700 /* FetchDesertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDesertApp.swift; sourceTree = "<group>"; };
+		B9FE66322C274F54001C5700 /* DesertListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesertListView.swift; sourceTree = "<group>"; };
+		B9FE66342C274F55001C5700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9FE66372C274F55001C5700 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9FE663D2C274F56001C5700 /* FetchDesertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchDesertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FE66412C274F56001C5700 /* FetchDesertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDesertTests.swift; sourceTree = "<group>"; };
+		B9FE66472C274F56001C5700 /* FetchDesertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchDesertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FE664B2C274F56001C5700 /* FetchDesertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDesertUITests.swift; sourceTree = "<group>"; };
+		B9FE664D2C274F56001C5700 /* FetchDesertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDesertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B9FE665E2C275CF6001C5700 /* DesertDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesertDetailsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9FE662A2C274F54001C5700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FE663A2C274F56001C5700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FE66442C274F56001C5700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9FE66242C274F54001C5700 = {
+			isa = PBXGroup;
+			children = (
+				B9FE662F2C274F54001C5700 /* FetchDesert */,
+				B9FE66402C274F56001C5700 /* FetchDesertTests */,
+				B9FE664A2C274F56001C5700 /* FetchDesertUITests */,
+				B9FE662E2C274F54001C5700 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9FE662E2C274F54001C5700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9FE662D2C274F54001C5700 /* FetchDesert.app */,
+				B9FE663D2C274F56001C5700 /* FetchDesertTests.xctest */,
+				B9FE66472C274F56001C5700 /* FetchDesertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9FE662F2C274F54001C5700 /* FetchDesert */ = {
+			isa = PBXGroup;
+			children = (
+				B9FE66302C274F54001C5700 /* FetchDesertApp.swift */,
+				B9FE66322C274F54001C5700 /* DesertListView.swift */,
+				B9FE66342C274F55001C5700 /* Assets.xcassets */,
+				B9FE66362C274F55001C5700 /* Preview Content */,
+				B9FE665E2C275CF6001C5700 /* DesertDetailsView.swift */,
+			);
+			path = FetchDesert;
+			sourceTree = "<group>";
+		};
+		B9FE66362C274F55001C5700 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9FE66372C274F55001C5700 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9FE66402C274F56001C5700 /* FetchDesertTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9FE66412C274F56001C5700 /* FetchDesertTests.swift */,
+			);
+			path = FetchDesertTests;
+			sourceTree = "<group>";
+		};
+		B9FE664A2C274F56001C5700 /* FetchDesertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9FE664B2C274F56001C5700 /* FetchDesertUITests.swift */,
+				B9FE664D2C274F56001C5700 /* FetchDesertUITestsLaunchTests.swift */,
+			);
+			path = FetchDesertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9FE662C2C274F54001C5700 /* FetchDesert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9FE66512C274F56001C5700 /* Build configuration list for PBXNativeTarget "FetchDesert" */;
+			buildPhases = (
+				B9FE66292C274F54001C5700 /* Sources */,
+				B9FE662A2C274F54001C5700 /* Frameworks */,
+				B9FE662B2C274F54001C5700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FetchDesert;
+			productName = FetchDesert;
+			productReference = B9FE662D2C274F54001C5700 /* FetchDesert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9FE663C2C274F56001C5700 /* FetchDesertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9FE66542C274F56001C5700 /* Build configuration list for PBXNativeTarget "FetchDesertTests" */;
+			buildPhases = (
+				B9FE66392C274F56001C5700 /* Sources */,
+				B9FE663A2C274F56001C5700 /* Frameworks */,
+				B9FE663B2C274F56001C5700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9FE663F2C274F56001C5700 /* PBXTargetDependency */,
+			);
+			name = FetchDesertTests;
+			productName = FetchDesertTests;
+			productReference = B9FE663D2C274F56001C5700 /* FetchDesertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9FE66462C274F56001C5700 /* FetchDesertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9FE66572C274F56001C5700 /* Build configuration list for PBXNativeTarget "FetchDesertUITests" */;
+			buildPhases = (
+				B9FE66432C274F56001C5700 /* Sources */,
+				B9FE66442C274F56001C5700 /* Frameworks */,
+				B9FE66452C274F56001C5700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9FE66492C274F56001C5700 /* PBXTargetDependency */,
+			);
+			name = FetchDesertUITests;
+			productName = FetchDesertUITests;
+			productReference = B9FE66472C274F56001C5700 /* FetchDesertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9FE66252C274F54001C5700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B9FE662C2C274F54001C5700 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B9FE663C2C274F56001C5700 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B9FE662C2C274F54001C5700;
+					};
+					B9FE66462C274F56001C5700 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B9FE662C2C274F54001C5700;
+					};
+				};
+			};
+			buildConfigurationList = B9FE66282C274F54001C5700 /* Build configuration list for PBXProject "FetchDesert" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9FE66242C274F54001C5700;
+			productRefGroup = B9FE662E2C274F54001C5700 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9FE662C2C274F54001C5700 /* FetchDesert */,
+				B9FE663C2C274F56001C5700 /* FetchDesertTests */,
+				B9FE66462C274F56001C5700 /* FetchDesertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9FE662B2C274F54001C5700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FE66382C274F55001C5700 /* Preview Assets.xcassets in Resources */,
+				B9FE66352C274F55001C5700 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FE663B2C274F56001C5700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FE66452C274F56001C5700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9FE66292C274F54001C5700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FE66332C274F54001C5700 /* DesertListView.swift in Sources */,
+				B9FE66312C274F54001C5700 /* FetchDesertApp.swift in Sources */,
+				B9FE665F2C275CF6001C5700 /* DesertDetailsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FE66392C274F56001C5700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FE66422C274F56001C5700 /* FetchDesertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FE66432C274F56001C5700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FE664E2C274F56001C5700 /* FetchDesertUITestsLaunchTests.swift in Sources */,
+				B9FE664C2C274F56001C5700 /* FetchDesertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9FE663F2C274F56001C5700 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9FE662C2C274F54001C5700 /* FetchDesert */;
+			targetProxy = B9FE663E2C274F56001C5700 /* PBXContainerItemProxy */;
+		};
+		B9FE66492C274F56001C5700 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9FE662C2C274F54001C5700 /* FetchDesert */;
+			targetProxy = B9FE66482C274F56001C5700 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B9FE664F2C274F56001C5700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9FE66502C274F56001C5700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9FE66522C274F56001C5700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FetchDesert/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bquang.FetchDesert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9FE66532C274F56001C5700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FetchDesert/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bquang.FetchDesert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B9FE66552C274F56001C5700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bquang.FetchDesertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchDesert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchDesert";
+			};
+			name = Debug;
+		};
+		B9FE66562C274F56001C5700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bquang.FetchDesertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchDesert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchDesert";
+			};
+			name = Release;
+		};
+		B9FE66582C274F56001C5700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bquang.FetchDesertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FetchDesert;
+			};
+			name = Debug;
+		};
+		B9FE66592C274F56001C5700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bquang.FetchDesertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FetchDesert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9FE66282C274F54001C5700 /* Build configuration list for PBXProject "FetchDesert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FE664F2C274F56001C5700 /* Debug */,
+				B9FE66502C274F56001C5700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9FE66512C274F56001C5700 /* Build configuration list for PBXNativeTarget "FetchDesert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FE66522C274F56001C5700 /* Debug */,
+				B9FE66532C274F56001C5700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9FE66542C274F56001C5700 /* Build configuration list for PBXNativeTarget "FetchDesertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FE66552C274F56001C5700 /* Debug */,
+				B9FE66562C274F56001C5700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9FE66572C274F56001C5700 /* Build configuration list for PBXNativeTarget "FetchDesertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FE66582C274F56001C5700 /* Debug */,
+				B9FE66592C274F56001C5700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9FE66252C274F54001C5700 /* Project object */;
+}
